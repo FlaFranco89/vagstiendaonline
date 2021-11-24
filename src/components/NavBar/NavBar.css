@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Yuji+Syuku&display=swap');
+
+.menu {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.menu a:hover {
+    background-color: #fccf0c;
+    padding: 10px;
+    transition: 0.5s;
+}
+.brand {
+    font-family: 'Yuji Syuku', serif;
+    background-color: #fccf0c;
+    padding: 10px;
+    width: 110px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.brand:hover {
+    color: white;
+    transition: 0.5s;
+}
