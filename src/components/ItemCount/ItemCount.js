@@ -1,4 +1,4 @@
-import react, {useState} from "react";
+import React, {useState} from "react";
 
 function ItemCount ({stock, initial, onAdd}) {
     const [countItems, setCountItems] = useState (initial);
