@@ -9,7 +9,6 @@ function Item ({ productItem }) {
                 <h5>{productItem.name} | ID: {productItem.id}</h5>
                 <p>{productItem.description}</p>
                 <p>Precio: ${productItem.price}</p>
-                <p>Descripción: {productItem.description}</p>
                 <ItemCount stock={10} initial={1}/>
             </div>
     </div>

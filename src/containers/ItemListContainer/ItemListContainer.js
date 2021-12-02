@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import ItemList from "../../components/ItemList/ItemList.js";
-import getProducts from "../../infoProductos.js";
+import getProductos from "../../services/getProductos.js";
 import "../ItemListContainer/ItemListContainer.css";
 
 function ItemListContainer (props){
@@ -8,7 +8,7 @@ function ItemListContainer (props){
     const [products, setProducts] = useState ([]);
 
     useEffect (() => {
-        getProducts
+        getProductos
         .then(response => setProducts(response))
         .catch(error => console.log(error))
     }, []);

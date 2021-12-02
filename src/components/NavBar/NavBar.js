@@ -1,4 +1,3 @@
-import react from "react";
 import CartWidget from "../CartWidget/CartWidget";
 import "../NavBar/NavBar.css";
 

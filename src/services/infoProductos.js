@@ -1,6 +1,6 @@
-import vagCactus from './assets/img/vagcactus.png';
-import vagBananas from './assets/img/vagbananas.png';
-import vagLimones from './assets/img/vaglimones.png'
+import vagCactus from '../assets/img/vagcactus.png';
+import vagBananas from '../assets/img/vagbananas.png';
+import vagLimones from '../assets/img/vaglimones.png';
 
 const info = [
     {
@@ -34,11 +34,4 @@ const info = [
     }
 ]
 
-const getProducts = new Promise((resolve, reject) => {
-    setTimeout(() => {
-        resolve(info)
-        reject("Oops! I did it again.")
-        },2000);
-    });
-
-export default getProducts;
+export default info;
